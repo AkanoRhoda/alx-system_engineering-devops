@@ -1,2 +1,2 @@
 #!/bin/bash
-awk '{print $1}'
+echo $(cut -c1 | tr -d " \n")
